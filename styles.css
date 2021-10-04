@@ -1,0 +1,15 @@
+.container {
+  margin-top: 40px;
+}
+
+.questionarea {
+  margin-top: 40px;
+}
+
+textarea {
+  height: 50px;
+}
+
+button {
+  height: 40px;
+}
