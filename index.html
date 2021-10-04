@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TalkingFill</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+
+            <h1><strong>TalkingFill............</strong></h1>
+
+            <div class="app"> 
+                <div class="questionarea">
+                    <h4>Your Message?</h4>
+                    <div class="input-single">
+                        <textarea id="note-textarea" placeholder="You can answer by typing or using voice recognition." rows="6"></textarea>
+                    </div>         
+                    <button id="start-record-btn" title="Start Recording">Start</button>
+                    <button id="pause-record-btn" title="Pause Recording">Pause</button>
+                    <button id="save-note-btn" title="Save Note">Save</button>
+                    <button id="clear-note-btn" title="CLear Note" type="button" class="btn btn-danger">Clear</button>
+                </div>
+                
+                <div class="questionarea">
+                    <h4>Your Name?</h4>
+                    <div class="input-single">
+                        <textarea id="name-textarea" placeholder="You can answer by typing or using voice recognition." rows="6"></textarea>
+                    </div>         
+                    <button id="name-start-record-btn" title="Start Recording">Start</button>
+                    <button id="name-pause-record-btn" title="Pause Recording">Pause</button>
+                    <button id="name-save-note-btn" title="Save Note">Save</button>
+                    <button id="name-clear-note-btn" title="CLear Note" type="button" class="btn btn-danger">Clear</button>
+                </div>
+
+                <div class="questionarea">
+                    <h4>Your Address?</h4>
+                    <div class="input-single">
+                        <textarea id="address-textarea" placeholder="You can answer by typing or using voice recognition." rows="6"></textarea>
+                    </div>         
+                    <button id="address-start-record-btn" title="Start Recording">Start</button>
+                    <button id="address-pause-record-btn" title="Pause Recording">Pause</button>
+                    <button id="address-save-note-btn" title="Save Note">Save</button>
+                    <button id="address-clear-note-btn" title="CLear Note" type="button" class="btn btn-danger">Clear</button>
+                </div>
+                
+                <div class="questionarea">
+                    <h4>Your Designation?</h4>
+                    <div class="input-single">
+                        <textarea id="designation-textarea" placeholder="You can answer by typing or using voice recognition." rows="6"></textarea>
+                    </div>         
+                    <button id="designation-start-record-btn" title="Start Recording">Start</button>
+                    <button id="designation-pause-record-btn" title="Pause Recording">Pause</button>
+                    <button id="designation-save-note-btn" title="Save Note">Save</button>
+                    <button id="designation-clear-note-btn" title="CLear Note" type="button" class="btn btn-danger">Clear</button>
+                </div>
+
+                <p id="recording-instructions">Press the <strong>Start</strong> button and allow access to start record.</p>
+                
+                <h3>My Answers</h3>
+                <ul id="notes">
+                    <li>
+                        <p class="no-notes">You don't have any answers.</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        
+
+    </body>
+</html>
