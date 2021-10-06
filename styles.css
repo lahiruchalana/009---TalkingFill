@@ -13,3 +13,9 @@ textarea {
 button {
   height: 40px;
 }
+
+.confirm-btns {
+  margin-top: 30px;
+  margin-left: 600px;
+  margin-right: auto;
+}
